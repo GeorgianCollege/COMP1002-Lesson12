@@ -6,15 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>COMP1002 - Lesson 12</title>
     <link rel="stylesheet" href="Content/reset.css">
-	<link rel="stylesheet" href="Content/main.css">
+    <link rel="stylesheet" href="Content/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="Content/main.css">
   </head>
   <body>
 	  
     <!-- HEADER SECTION -->
 	  <header class="masthead">
 		  <nav class="nav">
-			  <ul>
-				  <li class="active"><a href="index.html">Home</a></li>
+        <ul class="toggle">
+          <li>
+            <button id="menu-button"><i class="fa fa-bars fa-2x"></i></button>
+          </li>
+        </ul>
+			  <ul class="nav-bar">
+				  <li class="active"><a id="home" href="index.html">Home</a></li>
           <li><a href="products.html">Products</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="about.html">About Us</a></li>
@@ -42,7 +48,24 @@
     <footer>
       <h4>&copy; Copyright 2015</h4>
     </footer>
+    
+    <script> 
+    var button=document.getElementById("menu-button");
+    
+    button.addEventListener("click", function(){
+      console.log("button clicked");
+    });
+    
+    
 
+    
+   
+   
+    
+    
+    </script>
+
+    <script src="Scripts/main.js"></script>
 
   </body>
 </html>
