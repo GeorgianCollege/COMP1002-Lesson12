@@ -1,1 +1,46 @@
 /* custom styles */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+/* heading styles */
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 2em;
+	line-height: 2.2em;
+}
+
+h2 {
+	font-size: 1.8em;
+	line-height: 2em;
+}
+
+h3 {
+	font-size: 1.6em;
+	line-height: 1.8em;
+}
+
+h4 {
+	font-size: 1.4em;
+	line-height: 1.6em;
+}
+
+h5 {
+	font-size: 1.2em;
+	line-height: 1.4em;
+}
+
+h6 {
+	font-size: 1.1em;
+	line-height: 1.3em;
+}
+
+/* navigation styles */
